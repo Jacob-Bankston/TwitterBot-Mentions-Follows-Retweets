@@ -7,6 +7,15 @@ import time
 # Import your consumer_key, consumer_secret, access_token and access_token_secret
 from keys import keys
 
+# Your keys.py file should have the following code with the text on the right filled in with your twitter developer information!
+
+# keys = dict(
+#     consumer_key = "your consumer key here!",
+#     consumer_secret = "your consumer secret here!",
+#     access_token = "your access token here!",
+#     access_token_secret = "your access token secret here!",
+# )
+
 consumer_key = keys['consumer_key']
 consumer_secret = keys['consumer_secret']
 access_token = keys['access_token']
