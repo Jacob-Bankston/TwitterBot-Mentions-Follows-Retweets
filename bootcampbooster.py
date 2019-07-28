@@ -115,5 +115,6 @@ def retweet_the_hashtag():
 
 while True:
     respond_to_mentions()
+    time.sleep(15)
     retweet_the_hashtag()
-    time.sleep(20)
+    time.sleep(15)
